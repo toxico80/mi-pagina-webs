@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de inicio de sesión moderna</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crear una cuenta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o utilice su correo electrónico para registrarse</span>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <button>Inscribirse</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Inscribirse</h1>
+                <div class="social-icons">
+                    <a href="https://www.google.com/search?sca_esv=f4ec9ff83705f9fe&rlz=1C1JJTC_enDO1147DO1147&sxsrf=AHTn8zr8hmDZDmuMWnM0VE3kwrqUSYM7RQ:1740844349563&q=madara+uchiha+wallpaper+4k+png&udm=2&fbs=ABzOT_BnMAgCWdhr5zilP5f1cnRvK9uZj3HA_MTJAA6lXR8yQIHhBi298nC38CQZOY2HEJZWYtA6yNEwnaeJRiu97MFPgOGBGJB2m95zJv1aQ2yEQyXB0S5aoZJFOlOOqwv9itVgKFepmjmvIHLGDDkntZbHglnF6C7nwNH_VMSWzIhVphGP5ocRLK7Z4st2gzdH4zsg-rs27SAwzdiMQQMIHP--09ZIBg&sa=X&ved=2ahUKEwiAncLInumLAxVXRzABHdy0J4YQtKgLegQIERAB&biw=1536&bih=730&dpr=1.25#vhid=GvROHckx8Ahs0M&vssid=mosaic" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://www.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o utiliza tu contraseña de correo electrónico</span>
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <a href="#">¿Olvidó su contraseña?</a>
+                <button>Iniciar sesión</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>¡Bienvenido de nuevo</h1>
+                    <p>Ingrese sus datos personales para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="login">Inicia Sesion</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hola amigo</h1>
+                    <p>Regístrese con sus datos personales para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="register">Inscribirse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
